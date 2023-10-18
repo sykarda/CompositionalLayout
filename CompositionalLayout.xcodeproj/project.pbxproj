@@ -13,6 +13,7 @@
 		D5AD64F42ADFD3CB00048325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5AD64F22ADFD3CB00048325 /* Main.storyboard */; };
 		D5AD64F62ADFD3CD00048325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5AD64F52ADFD3CD00048325 /* Assets.xcassets */; };
 		D5AD64F92ADFD3CD00048325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5AD64F72ADFD3CD00048325 /* LaunchScreen.storyboard */; };
+		D5AD65012ADFD58000048325 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD65002ADFD58000048325 /* CollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D5AD64F52ADFD3CD00048325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5AD64F82ADFD3CD00048325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5AD64FA2ADFD3CD00048325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5AD65002ADFD58000048325 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D5AD64F52ADFD3CD00048325 /* Assets.xcassets */,
 				D5AD64F72ADFD3CD00048325 /* LaunchScreen.storyboard */,
 				D5AD64FA2ADFD3CD00048325 /* Info.plist */,
+				D5AD65002ADFD58000048325 /* CollectionCell.swift */,
 			);
 			path = CompositionalLayout;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				D5AD64F12ADFD3CB00048325 /* ViewController.swift in Sources */,
 				D5AD64ED2ADFD3CB00048325 /* AppDelegate.swift in Sources */,
 				D5AD64EF2ADFD3CB00048325 /* SceneDelegate.swift in Sources */,
+				D5AD65012ADFD58000048325 /* CollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
