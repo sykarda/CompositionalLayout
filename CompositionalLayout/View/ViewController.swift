@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         collectionView.dataSource = self
         collectionView.register(CollectionCell.self, forCellWithReuseIdentifier: CollectionCell.identifier)
 
-        var layout = UICollectionViewFlowLayout()
+        let layout = UICollectionViewFlowLayout()
         layout.itemSize = CGSize(width: 150, height: 150)
         layout.scrollDirection = .horizontal
 
