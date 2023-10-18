@@ -58,16 +58,40 @@
 		D5AD64EB2ADFD3CB00048325 /* CompositionalLayout */ = {
 			isa = PBXGroup;
 			children = (
-				D5AD64EC2ADFD3CB00048325 /* AppDelegate.swift */,
-				D5AD64EE2ADFD3CB00048325 /* SceneDelegate.swift */,
-				D5AD64F02ADFD3CB00048325 /* ViewController.swift */,
-				D5AD64F22ADFD3CB00048325 /* Main.storyboard */,
+				D5AD65042ADFF30B00048325 /* AppDelegate */,
+				D5AD65022ADFF2D400048325 /* View */,
 				D5AD64F52ADFD3CD00048325 /* Assets.xcassets */,
 				D5AD64F72ADFD3CD00048325 /* LaunchScreen.storyboard */,
 				D5AD64FA2ADFD3CD00048325 /* Info.plist */,
-				D5AD65002ADFD58000048325 /* CollectionCell.swift */,
 			);
 			path = CompositionalLayout;
+			sourceTree = "<group>";
+		};
+		D5AD65022ADFF2D400048325 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5AD64F22ADFD3CB00048325 /* Main.storyboard */,
+				D5AD64F02ADFD3CB00048325 /* ViewController.swift */,
+				D5AD65032ADFF2E200048325 /* Component */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D5AD65032ADFF2E200048325 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				D5AD65002ADFD58000048325 /* CollectionCell.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		D5AD65042ADFF30B00048325 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D5AD64EC2ADFD3CB00048325 /* AppDelegate.swift */,
+				D5AD64EE2ADFD3CB00048325 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
