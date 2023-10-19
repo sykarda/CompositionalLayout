@@ -17,11 +17,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="onZ-4p-WAO">
-                                <rect key="frame" x="0.0" y="59" width="393" height="200"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="c0d-zp-86X"/>
-                                </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mug-cM-z1A">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -37,6 +34,7 @@
                             <constraint firstItem="onZ-4p-WAO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EnF-nc-Ouq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="onZ-4p-WAO" secondAttribute="trailing" id="U2s-M1-tXN"/>
                             <constraint firstItem="onZ-4p-WAO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cQL-eH-igN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="onZ-4p-WAO" secondAttribute="bottom" id="vb8-wH-vis"/>
                         </constraints>
                     </view>
                     <connections>

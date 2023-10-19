@@ -7,9 +7,9 @@
 
 import UIKit
 
-class CollectionCell: UICollectionViewCell {
-    static let identifier = "CollectionCell"
-    
+class CollectionRedCell: UICollectionViewCell {
+    static let identifier = "CollectionRedCell"
+
     func configure() {
         contentView.backgroundColor = .red
     }
